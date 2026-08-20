@@ -1,5 +1,4 @@
 import "./index.css";
-import {useState} from React;
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Guitar from "./components/Guitar";
@@ -17,8 +16,6 @@ function App() {
     isEmpty,
     cartTotal,
   } = useCart();
-
-
 
   return (
     <>
